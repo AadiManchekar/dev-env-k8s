@@ -20,6 +20,7 @@
     sudo ufw status
      sudo cat /var/lib/jenkins/secrets/initialAdminPassword
      go to IP:8080
+     Select plugins to install -> unselect Mailer, Email Extension, LDAP | Select Role-based Authorization Strategy, Github, 
 
 
 
@@ -27,6 +28,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4NTE4MTg2LDYwMjY0Njg5NywtMTg1Mj
-A5OTA5NCwtNDcyNjM1MDMsMjUxMzc4ODk3XX0=
+eyJoaXN0b3J5IjpbLTE4NzEyMTEyMjUsMjY4NTE4MTg2LDYwMj
+Y0Njg5NywtMTg1MjA5OTA5NCwtNDcyNjM1MDMsMjUxMzc4ODk3
+XX0=
 -->
