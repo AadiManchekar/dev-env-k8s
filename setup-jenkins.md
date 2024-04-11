@@ -11,13 +11,17 @@
     sudo sh -c 'echo deb [signed-by=/usr/share/keyrings/jenkins.gpg] http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
     
     sudo apt update
-    sudo apt install jenkins -y
+    sudo apt install openjdk-17-jre-headless
+    sudo apt install jenkins -
+    ```
+sudo systemctl start jenkins.service
+```
 
 
  2. List item
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTIwOTkwOTQsLTQ3MjYzNTAzLDI1MT
-M3ODg5N119
+eyJoaXN0b3J5IjpbODE4MzQyODE2LC0xODUyMDk5MDk0LC00Nz
+I2MzUwMywyNTEzNzg4OTddfQ==
 -->
