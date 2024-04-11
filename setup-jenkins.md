@@ -16,13 +16,15 @@
     sudo systemctl start jenkins.service
     sudo systemctl status jenkins
     sudo ufw allow 8080
-    
+    sudo ufw enable
+    sudo ufw status
+
 
 
  2. List item
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTI3Mzk5NjYsLTE4NTIwOTkwOTQsLT
-Q3MjYzNTAzLDI1MTM3ODg5N119
+eyJoaXN0b3J5IjpbNjAyNjQ2ODk3LC0xODUyMDk5MDk0LC00Nz
+I2MzUwMywyNTEzNzg4OTddfQ==
 -->
