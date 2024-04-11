@@ -18,6 +18,8 @@
     sudo ufw allow 8080
     sudo ufw enable
     sudo ufw status
+     sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+     go to IP:8080
 
 
 
@@ -25,6 +27,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyNjQ2ODk3LC0xODUyMDk5MDk0LC00Nz
-I2MzUwMywyNTEzNzg4OTddfQ==
+eyJoaXN0b3J5IjpbMjY4NTE4MTg2LDYwMjY0Njg5NywtMTg1Mj
+A5OTA5NCwtNDcyNjM1MDMsMjUxMzc4ODk3XX0=
 -->
