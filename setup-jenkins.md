@@ -1,5 +1,5 @@
 
-## Jenkins setup
+## Jenkins setup for 2.440.2
 
  1. Create a VM from GCP i used e2-standard-8 (8 vCPU + 32 GB memory, Ubuntu2204 LTS, boot disk 40GB SSD persistent disk). Make sure to add your ssh keys so you can easily ssh into the VM
 
@@ -29,7 +29,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4Mjk4MjI3NCw4MzUxNzQyOTcsMjY4NT
+eyJoaXN0b3J5IjpbLTMwNjg3ODk0Myw4MzUxNzQyOTcsMjY4NT
 E4MTg2LDYwMjY0Njg5NywtMTg1MjA5OTA5NCwtNDcyNjM1MDMs
 MjUxMzc4ODk3XX0=
 -->
