@@ -12,16 +12,17 @@
     
     sudo apt update
     sudo apt install openjdk-17-jre-headless
-    sudo apt install jenkins -
-    ```
-sudo systemctl start jenkins.service
-```
+    sudo apt install jenkins -y
+    sudo systemctl start jenkins.service
+    sudo systemctl status jenkins
+    sudo ufw allow 8080
+    
 
 
  2. List item
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4MzQyODE2LC0xODUyMDk5MDk0LC00Nz
-I2MzUwMywyNTEzNzg4OTddfQ==
+eyJoaXN0b3J5IjpbLTIwNTI3Mzk5NjYsLTE4NTIwOTkwOTQsLT
+Q3MjYzNTAzLDI1MTM3ODg5N119
 -->
