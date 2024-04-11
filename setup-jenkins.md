@@ -8,11 +8,15 @@
     
     sudo sh -c 'echo deb [signed-by=/usr/share/keyrings/jenkins.gpg] http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list' 
     
+    sudo sh -c 'echo deb [signed-by=/usr/share/keyrings/jenkins.gpg] http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+    
+    sudo apt install jenkins
+
 
  2. List item
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTA1NjM1ODksLTQ3MjYzNTAzLDI1MT
-M3ODg5N119
+eyJoaXN0b3J5IjpbLTk1Njk3ODU2NSwtNDcyNjM1MDMsMjUxMz
+c4ODk3XX0=
 -->
