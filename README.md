@@ -16,3 +16,5 @@ swapoff -a
 O/P: swapoff: Not superuser.
 ```
 disabling swap using swapoff directly within a running Ubuntu 22 Docker container isn't possible. due to Limited Privileges: Docker containers operate in a restricted environment and don't have root access to the host system. This prevents them from modifying system-wide settings like swap configuration.
+
+master node: aadi-ubuntu2204-1712832145
