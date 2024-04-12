@@ -3,10 +3,11 @@
 
  1. Create a VM from GCP i used e2-standard-8 (8 vCPU + 32 GB memory, Ubuntu2204 LTS, boot disk 40GB SSD persistent disk). Make sure to add your ssh keys so you can easily ssh into the VM
 
-    
 
- - sudo apt update
- sudo apt install -y curl
+ 
+       sudo apt update
+       sudo apt install -y curl
+       
        wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key |sudo gpg --dearmor -o /usr/share/keyrings/jenkins.gpg
        
        sudo sh -c 'echo deb [signed-by=/usr/share/keyrings/jenkins.gpg] http://pkg.jenkins.io/debian-stable binary/ >
@@ -30,7 +31,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjI5MjYxMSwtMzA2ODc4OTQzLDgzNT
+eyJoaXN0b3J5IjpbMTEwMzc2NTQ4NCwtMzA2ODc4OTQzLDgzNT
 E3NDI5NywyNjg1MTgxODYsNjAyNjQ2ODk3LC0xODUyMDk5MDk0
 LC00NzI2MzUwMywyNTEzNzg4OTddfQ==
 -->
