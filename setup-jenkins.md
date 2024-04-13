@@ -17,9 +17,9 @@
            sudo systemctl start jenkins.service
            sudo systemctl status jenkins
            sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-           go to IP:8080
-           Select plugins to install -> unselect Mailer, Email Extension, LDAP, ANT | Select Role-based Authorization Strategy, Github, Rebuilder, Parameterized Trigger
-           For user type admin in all the fields (username, password, email)
+           # go to IP:8080
+           # Select plugins to install -> unselect Mailer, Email Extension, LDAP, ANT | Select Role-based Authorization Strategy, Github, Rebuilder, Parameterized Trigger
+           # For user type admin in all the fields (username, password, email)
 
 > Note: i faced ssh difficulties, if you know what youre doing inorder to properly ssh into it then good, else  these are the changes i did in /etc/ssh/sshd_config
 
@@ -31,16 +31,20 @@
 ```
 python --version 
 
-create a symbolic link so if u type python it will take python3 by default 
+# create a symbolic link so if u type python it will take python3 by default 
 sudo ln -s /usr/bin/python3 /usr/bin/python
 
+sudo apt install -y python3-pip
 
+# both pip and pip3 works and point to same version
+pip3 --version
+pip --version
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDQyNDQxNCwtNDM3MzU1NDkyLC0yMT
-MyNjg5NTY3LDIwMjQ2MzQ4ODAsLTI3MzQ1Njg1NywtNjAwMzcx
-ODU3LC0zMDY4Nzg5NDMsODM1MTc0Mjk3LDI2ODUxODE4Niw2MD
-I2NDY4OTcsLTE4NTIwOTkwOTQsLTQ3MjYzNTAzLDI1MTM3ODg5
-N119
+eyJoaXN0b3J5IjpbNDE2NzY4NTEzLC00MzczNTU0OTIsLTIxMz
+I2ODk1NjcsMjAyNDYzNDg4MCwtMjczNDU2ODU3LC02MDAzNzE4
+NTcsLTMwNjg3ODk0Myw4MzUxNzQyOTcsMjY4NTE4MTg2LDYwMj
+Y0Njg5NywtMTg1MjA5OTA5NCwtNDcyNjM1MDMsMjUxMzc4ODk3
+XX0=
 -->
