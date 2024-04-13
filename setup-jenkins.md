@@ -26,12 +26,17 @@
     PubkeyAuthentication yes
     PasswordAuthentication yes
 
- 2. List item
+ 2. Configure python, pip and virtualenv
+
+    python3 --version
+	
+	create a symbolic link so if u type python it will take python3 by default
+	sudo ln -s /usr/bin/python3 /usr/bin/python
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI2ODk1NjcsMjAyNDYzNDg4MCwtMj
-czNDU2ODU3LC02MDAzNzE4NTcsLTMwNjg3ODk0Myw4MzUxNzQy
-OTcsMjY4NTE4MTg2LDYwMjY0Njg5NywtMTg1MjA5OTA5NCwtND
-cyNjM1MDMsMjUxMzc4ODk3XX0=
+eyJoaXN0b3J5IjpbMjk4NDE4OTM3LC0yMTMyNjg5NTY3LDIwMj
+Q2MzQ4ODAsLTI3MzQ1Njg1NywtNjAwMzcxODU3LC0zMDY4Nzg5
+NDMsODM1MTc0Mjk3LDI2ODUxODE4Niw2MDI2NDY4OTcsLTE4NT
+IwOTkwOTQsLTQ3MjYzNTAzLDI1MTM3ODg5N119
 -->
