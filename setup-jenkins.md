@@ -18,16 +18,19 @@
            sudo systemctl status jenkins
            sudo cat /var/lib/jenkins/secrets/initialAdminPassword
            go to IP:8080
-           Select plugins to install -> unselect Mailer, Email Extension, LDAP, ANT | Select Role-based Authorization Strategy, Github, Rebuilder
-       Parameterized Trigger
-            For user type admin in all the fields (username, password, email)
+           Select plugins to install -> unselect Mailer, Email Extension, LDAP, ANT | Select Role-based Authorization Strategy, Github, Rebuilder, Parameterized Trigger
+           For user type admin in all the fields (username, password, email)
+
+> Note: i faced ssh difficulties, if you know what youre doing inorder to properly ssh into it then good, else  these are the changes i did 
+
+    enter code here
 
  2. List item
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDYzNDg4MCwtMjczNDU2ODU3LC02MD
-AzNzE4NTcsLTMwNjg3ODk0Myw4MzUxNzQyOTcsMjY4NTE4MTg2
-LDYwMjY0Njg5NywtMTg1MjA5OTA5NCwtNDcyNjM1MDMsMjUxMz
-c4ODk3XX0=
+eyJoaXN0b3J5IjpbMTU3OTM0NjUyMCwyMDI0NjM0ODgwLC0yNz
+M0NTY4NTcsLTYwMDM3MTg1NywtMzA2ODc4OTQzLDgzNTE3NDI5
+NywyNjg1MTgxODYsNjAyNjQ2ODk3LC0xODUyMDk5MDk0LC00Nz
+I2MzUwMywyNTEzNzg4OTddfQ==
 -->
