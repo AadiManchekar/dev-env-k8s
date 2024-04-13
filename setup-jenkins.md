@@ -29,16 +29,12 @@
 
  2. Configure python, pip and virtualenv
 
-P
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
+    enter code here
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg1MjEwNTIsLTQzNzM1NTQ5MiwtMj
-EzMjY4OTU2NywyMDI0NjM0ODgwLC0yNzM0NTY4NTcsLTYwMDM3
-MTg1NywtMzA2ODc4OTQzLDgzNTE3NDI5NywyNjg1MTgxODYsNj
-AyNjQ2ODk3LC0xODUyMDk5MDk0LC00NzI2MzUwMywyNTEzNzg4
-OTddfQ==
+eyJoaXN0b3J5IjpbLTIwNzA2MjUwOSwtNDM3MzU1NDkyLC0yMT
+MyNjg5NTY3LDIwMjQ2MzQ4ODAsLTI3MzQ1Njg1NywtNjAwMzcx
+ODU3LC0zMDY4Nzg5NDMsODM1MTc0Mjk3LDI2ODUxODE4Niw2MD
+I2NDY4OTcsLTE4NTIwOTkwOTQsLTQ3MjYzNTAzLDI1MTM3ODg5
+N119
 -->
