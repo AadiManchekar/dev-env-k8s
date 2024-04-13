@@ -39,12 +39,21 @@ sudo apt install -y python3-pip
 # both pip and pip3 works and point to same version
 pip3 --version
 pip --version
+
+sudo su
+apt install python3-virtualenv
+cd /var/lib/jenkins
+mkdir virtualenv
+cd virtualenv
+virtualenv dev-env-k8s-virtualenv
+cd dev-env-k8s-virtualenv/
+
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2NzY4NTEzLC00MzczNTU0OTIsLTIxMz
-I2ODk1NjcsMjAyNDYzNDg4MCwtMjczNDU2ODU3LC02MDAzNzE4
-NTcsLTMwNjg3ODk0Myw4MzUxNzQyOTcsMjY4NTE4MTg2LDYwMj
-Y0Njg5NywtMTg1MjA5OTA5NCwtNDcyNjM1MDMsMjUxMzc4ODk3
-XX0=
+eyJoaXN0b3J5IjpbMTg4NDE0MTA1NCw0MTY3Njg1MTMsLTQzNz
+M1NTQ5MiwtMjEzMjY4OTU2NywyMDI0NjM0ODgwLC0yNzM0NTY4
+NTcsLTYwMDM3MTg1NywtMzA2ODc4OTQzLDgzNTE3NDI5NywyNj
+g1MTgxODYsNjAyNjQ2ODk3LC0xODUyMDk5MDk0LC00NzI2MzUw
+MywyNTEzNzg4OTddfQ==
 -->
