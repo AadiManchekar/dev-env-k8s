@@ -47,13 +47,14 @@ mkdir virtualenv
 cd virtualenv
 virtualenv dev-env-k8s-virtualenv
 cd dev-env-k8s-virtualenv/
-
+source bin/activate
 ```
 
+> Remember to activate the vitual env we have to go to (/var/lib/jenkins/virtualenv/dev-env-k8s-virtualenv) and then execute **source bin/activate**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDE0MTA1NCw0MTY3Njg1MTMsLTQzNz
-M1NTQ5MiwtMjEzMjY4OTU2NywyMDI0NjM0ODgwLC0yNzM0NTY4
-NTcsLTYwMDM3MTg1NywtMzA2ODc4OTQzLDgzNTE3NDI5NywyNj
-g1MTgxODYsNjAyNjQ2ODk3LC0xODUyMDk5MDk0LC00NzI2MzUw
-MywyNTEzNzg4OTddfQ==
+eyJoaXN0b3J5IjpbMTg4MDg1MTI1NCwxODg0MTQxMDU0LDQxNj
+c2ODUxMywtNDM3MzU1NDkyLC0yMTMyNjg5NTY3LDIwMjQ2MzQ4
+ODAsLTI3MzQ1Njg1NywtNjAwMzcxODU3LC0zMDY4Nzg5NDMsOD
+M1MTc0Mjk3LDI2ODUxODE4Niw2MDI2NDY4OTcsLTE4NTIwOTkw
+OTQsLTQ3MjYzNTAzLDI1MTM3ODg5N119
 -->
