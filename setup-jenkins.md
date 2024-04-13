@@ -28,11 +28,12 @@
 
 
  2. Configure python, pip and virtualenv
+```
 
-    enter code here
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzA2MjUwOSwtNDM3MzU1NDkyLC0yMT
+eyJoaXN0b3J5IjpbMTcyMjA3NjM0NCwtNDM3MzU1NDkyLC0yMT
 MyNjg5NTY3LDIwMjQ2MzQ4ODAsLTI3MzQ1Njg1NywtNjAwMzcx
 ODU3LC0zMDY4Nzg5NDMsODM1MTc0Mjk3LDI2ODUxODE4Niw2MD
 I2NDY4OTcsLTE4NTIwOTkwOTQsLTQ3MjYzNTAzLDI1MTM3ODg5
