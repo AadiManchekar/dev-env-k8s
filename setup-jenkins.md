@@ -26,14 +26,19 @@
     PubkeyAuthentication yes
     PasswordAuthentication yes
 
+
  2. Configure python, pip and virtualenv
 
-    python --version
+P
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzM1NTQ5MiwtMjEzMjY4OTU2NywyMD
-I0NjM0ODgwLC0yNzM0NTY4NTcsLTYwMDM3MTg1NywtMzA2ODc4
-OTQzLDgzNTE3NDI5NywyNjg1MTgxODYsNjAyNjQ2ODk3LC0xOD
-UyMDk5MDk0LC00NzI2MzUwMywyNTEzNzg4OTddfQ==
+eyJoaXN0b3J5IjpbLTE5OTg1MjEwNTIsLTQzNzM1NTQ5MiwtMj
+EzMjY4OTU2NywyMDI0NjM0ODgwLC0yNzM0NTY4NTcsLTYwMDM3
+MTg1NywtMzA2ODc4OTQzLDgzNTE3NDI5NywyNjg1MTgxODYsNj
+AyNjQ2ODk3LC0xODUyMDk5MDk0LC00NzI2MzUwMywyNTEzNzg4
+OTddfQ==
 -->
