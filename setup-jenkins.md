@@ -21,16 +21,17 @@
            Select plugins to install -> unselect Mailer, Email Extension, LDAP, ANT | Select Role-based Authorization Strategy, Github, Rebuilder, Parameterized Trigger
            For user type admin in all the fields (username, password, email)
 
-> Note: i faced ssh difficulties, if you know what youre doing inorder to properly ssh into it then good, else  these are the changes i did 
+> Note: i faced ssh difficulties, if you know what youre doing inorder to properly ssh into it then good, else  these are the changes i did in /etc/ssh/sshd_config
 
-    enter code here
+    PubkeyAuthentication yes
+    PasswordAuthentication yes
 
  2. List item
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3OTM0NjUyMCwyMDI0NjM0ODgwLC0yNz
-M0NTY4NTcsLTYwMDM3MTg1NywtMzA2ODc4OTQzLDgzNTE3NDI5
-NywyNjg1MTgxODYsNjAyNjQ2ODk3LC0xODUyMDk5MDk0LC00Nz
-I2MzUwMywyNTEzNzg4OTddfQ==
+eyJoaXN0b3J5IjpbLTIxMzI2ODk1NjcsMjAyNDYzNDg4MCwtMj
+czNDU2ODU3LC02MDAzNzE4NTcsLTMwNjg3ODk0Myw4MzUxNzQy
+OTcsMjY4NTE4MTg2LDYwMjY0Njg5NywtMTg1MjA5OTA5NCwtND
+cyNjM1MDMsMjUxMzc4ODk3XX0=
 -->
