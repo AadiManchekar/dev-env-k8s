@@ -51,10 +51,13 @@ source bin/activate
 ```
 
 > Remember to activate the vitual env we have to go to (/var/lib/jenkins/virtualenv/dev-env-k8s-virtualenv) and then execute **source bin/activate**
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MDg1MTI1NCwxODg0MTQxMDU0LDQxNj
-c2ODUxMywtNDM3MzU1NDkyLC0yMTMyNjg5NTY3LDIwMjQ2MzQ4
-ODAsLTI3MzQ1Njg1NywtNjAwMzcxODU3LC0zMDY4Nzg5NDMsOD
-M1MTc0Mjk3LDI2ODUxODE4Niw2MDI2NDY4OTcsLTE4NTIwOTkw
-OTQsLTQ3MjYzNTAzLDI1MTM3ODg5N119
+eyJoaXN0b3J5IjpbLTYwNTY2MjUyOCwxODgwODUxMjU0LDE4OD
+QxNDEwNTQsNDE2NzY4NTEzLC00MzczNTU0OTIsLTIxMzI2ODk1
+NjcsMjAyNDYzNDg4MCwtMjczNDU2ODU3LC02MDAzNzE4NTcsLT
+MwNjg3ODk0Myw4MzUxNzQyOTcsMjY4NTE4MTg2LDYwMjY0Njg5
+NywtMTg1MjA5OTA5NCwtNDcyNjM1MDMsMjUxMzc4ODk3XX0=
 -->
