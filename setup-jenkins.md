@@ -52,10 +52,19 @@ source bin/activate
 
 > Remember to activate the vitual env we have to go to (/var/lib/jenkins/virtualenv/dev-env-k8s-virtualenv) and then execute **source bin/activate**
 
+## Configuring job (# dev-env-version-1)
 
+ 
+
+    sudo su
+    su jenkins
+    cd /var/lib/jenkins
+    ssh-keygen
+    cd .ssh
+    ca
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTY2MjUyOCwxODgwODUxMjU0LDE4OD
+eyJoaXN0b3J5IjpbMjAzMzcwODI5OCwxODgwODUxMjU0LDE4OD
 QxNDEwNTQsNDE2NzY4NTEzLC00MzczNTU0OTIsLTIxMzI2ODk1
 NjcsMjAyNDYzNDg4MCwtMjczNDU2ODU3LC02MDAzNzE4NTcsLT
 MwNjg3ODk0Myw4MzUxNzQyOTcsMjY4NTE4MTg2LDYwMjY0Njg5
