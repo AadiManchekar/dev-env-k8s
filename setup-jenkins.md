@@ -63,14 +63,16 @@ source bin/activate
     cd .ssh
     cat id_rsa.pub and add this ssh key in you github account
     git clone git@github.com:AadiManchekar/dev-env-k8s.git (type yes)
+    # once the repo is clone you can delete it
+    rm -rf dev-env-k8s
     
 > Now it is added in known_host else if you dont do this you will end up getting this error: Host key verification failed.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDg5OTAwNiwxODgwODUxMjU0LDE4OD
-QxNDEwNTQsNDE2NzY4NTEzLC00MzczNTU0OTIsLTIxMzI2ODk1
-NjcsMjAyNDYzNDg4MCwtMjczNDU2ODU3LC02MDAzNzE4NTcsLT
-MwNjg3ODk0Myw4MzUxNzQyOTcsMjY4NTE4MTg2LDYwMjY0Njg5
-NywtMTg1MjA5OTA5NCwtNDcyNjM1MDMsMjUxMzc4ODk3XX0=
+eyJoaXN0b3J5IjpbNjQzOTAyODEzLDE4ODA4NTEyNTQsMTg4ND
+E0MTA1NCw0MTY3Njg1MTMsLTQzNzM1NTQ5MiwtMjEzMjY4OTU2
+NywyMDI0NjM0ODgwLC0yNzM0NTY4NTcsLTYwMDM3MTg1NywtMz
+A2ODc4OTQzLDgzNTE3NDI5NywyNjg1MTgxODYsNjAyNjQ2ODk3
+LC0xODUyMDk5MDk0LC00NzI2MzUwMywyNTEzNzg4OTddfQ==
 -->
