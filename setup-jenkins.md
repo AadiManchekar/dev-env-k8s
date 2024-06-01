@@ -26,6 +26,9 @@
     PubkeyAuthentication yes
     PasswordAuthentication yes
 
+but make sure you arent doing this in cloud account of your company :)
+if you do then wait for an email from security team XD
+turn of PasswordAuthentication and only keep 
 
  2. Configure python, pip and virtualenv
 ```
@@ -70,9 +73,10 @@ source bin/activate
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzOTAyODEzLDE4ODA4NTEyNTQsMTg4ND
-E0MTA1NCw0MTY3Njg1MTMsLTQzNzM1NTQ5MiwtMjEzMjY4OTU2
-NywyMDI0NjM0ODgwLC0yNzM0NTY4NTcsLTYwMDM3MTg1NywtMz
-A2ODc4OTQzLDgzNTE3NDI5NywyNjg1MTgxODYsNjAyNjQ2ODk3
-LC0xODUyMDk5MDk0LC00NzI2MzUwMywyNTEzNzg4OTddfQ==
+eyJoaXN0b3J5IjpbLTIwNDc0MTkzMjMsNjQzOTAyODEzLDE4OD
+A4NTEyNTQsMTg4NDE0MTA1NCw0MTY3Njg1MTMsLTQzNzM1NTQ5
+MiwtMjEzMjY4OTU2NywyMDI0NjM0ODgwLC0yNzM0NTY4NTcsLT
+YwMDM3MTg1NywtMzA2ODc4OTQzLDgzNTE3NDI5NywyNjg1MTgx
+ODYsNjAyNjQ2ODk3LC0xODUyMDk5MDk0LC00NzI2MzUwMywyNT
+EzNzg4OTddfQ==
 -->
